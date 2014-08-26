@@ -1,0 +1,10 @@
+DEPENDENCIES
+  golang
+  statsdaemon-vimeo
+    path: .
+    metadata: true
+
+GRAPH
+  golang (1.4.0)
+  statsdaemon-vimeo (1.0.3)
+    golang (>= 0.0.0)
