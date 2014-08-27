@@ -6,5 +6,5 @@ DEPENDENCIES
 
 GRAPH
   golang (1.4.0)
-  statsdaemon-vimeo (1.0.3)
+  statsdaemon-vimeo (1.0.1)
     golang (>= 0.0.0)

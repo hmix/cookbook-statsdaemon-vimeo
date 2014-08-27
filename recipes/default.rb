@@ -12,6 +12,13 @@ file '/var/log/statsdaemon.log' do
   action :create_if_missing
 end
 
+template '/etc/statsdaemon.ini' do
+  source 'statsdaemon.ini.erb'
+  mode 0600
+  owner 'root'
+  group 'root'
+end
+
 template '/etc/init.d/statsdaemon' do
   source 'statsdaemon_init.erb'
   mode 0755
