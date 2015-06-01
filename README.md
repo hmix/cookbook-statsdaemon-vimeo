@@ -1,6 +1,7 @@
 # Chef cookbook for Statsdaemon
 
-[![Build Status](https://travis-ci.org/odolbeau/cookbook-statsdaemon-vimeo.png)](https://travis-ci.org/odolbeau/cookbook-statsdaemon-vimeo)
+[![Build Status](https://travis-ci.org/mburns/cookbook-statsdaemon-vimeo.svg)](https://travis-ci.org/mburns/cookbook-statsdaemon-vimeo)
+[![Chef cookbook](https://img.shields.io/cookbook/v/statsdaemon-vimeo.svg)](https://supermarket.chef.io/cookbooks/statsdaemon-vimeo)
 
 ## Description
 
@@ -16,7 +17,7 @@ daemon written in go by vimeo.
 
 **Notes**: This cookbook has been tested on Debian 7.6. It may work on other
 platforms with or without modification. Please [report
-issues](https://github.com/odolbeau/cookbook-statsdaemon-vimeo/issues) any
+issues](https://github.com/mburns/cookbook-statsdaemon-vimeo/issues) any
 additional platforms so they can be added.
 
 ## Usage
